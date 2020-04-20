@@ -26,7 +26,7 @@ The body of the request (the value for the ```--data``` flag in curl) defines th
 
 Follow these steps to create your cluster:
 
-1. Add your group id (same as project id!), private key, and public key to the ```_env.config``` file. This file is referenced in all of the sample scripts so we don't have to keep setting these variables over and over for the rest of the workshop.
+1. Add your group id (same as project id!), private key, and public key to the ```env.config``` file. This file is referenced in all of the sample scripts so we don't have to keep setting these variables over and over for the rest of the workshop.
 2. Make sure all the scripts in the ```cluster_management``` directory can be executed ```chmod +x cluster_management/*```
 3. Run the script to create a cluster. 
 
