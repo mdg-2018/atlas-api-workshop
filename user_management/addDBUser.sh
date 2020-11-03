@@ -2,7 +2,7 @@
 . ../env.config
 
 CLUSTER='sample'
-DAYS_OF_USER_LIFE=6
+DAYS_OF_USER_LIFE=1
 
 DELETE_AFTER_DATE=$(date -v +${DAYS_OF_USER_LIFE}d "+%Y-%m-%dT%H:%M:%SZ")
 
